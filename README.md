@@ -78,4 +78,4 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [issues-shield]: https://img.shields.io/github/issues/ampm-jbnu/ampm-site.svg?style=flat-square
 [issues-url]: https://github.com/ampm-jbnu/ampm-site/issues
 [license-shield]: https://img.shields.io/github/license/ampm-jbnu/ampm-site.svg?style=flat-square
-[license-url]: https://github.com/ampm-jbnu/ampm-site/blob/master/LICENSE.txt
+[license-url]: https://github.com/ampm-jbnu/ampm-site/blob/master/LICENSE.md
