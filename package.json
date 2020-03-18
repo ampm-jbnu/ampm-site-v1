@@ -9,7 +9,7 @@
     "start": "next start",
     "install:clean": "sudo rm -rf node_modules/ && sudo rm -rf yarn.json && sudo rm -rf .next/ && yarn && yarn dev"
   },
-  "repository": "https://github.com/bonomoon/ampm-site.git",
+  "repository": "https://github.com/ampm-jbnu/ampm-site.git",
   "author": "bonomoon <moonbonoz@gmail.com>",
   "license": "MIT",
   "dependencies": {

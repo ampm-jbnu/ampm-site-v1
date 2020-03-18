@@ -1,11 +1,11 @@
-# AM:PM site
+# AM:PM Site
 > 전북대학교 소프트웨어공학과 학술동아리 AM:PM 웹 사이트
 
-[![Contributors][contributors-shield]](https://img.shields.io/github/contributors/ampm-jbnu/ampm-site)
-[![Forks][forks-shield]](https://img.shields.io/github/forks/ampm-jbnu/ampm-site)
-[![Stargazers][stars-shield]](https://img.shields.io/github/stars/ampm-jbnu/ampm-site)
-[![Issues][issues-shield]](https://img.shields.io/github/issues/ampm-jbnu/ampm-site)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 전북대학교 소프트웨어공학과의 알고리즘 및 프로젝트 관련 학술동아리인 AM:PM 웹 사이트입니다.
 
@@ -66,3 +66,16 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 3. Commit your changes (`git commit -am 'add: some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/ampm-jbnu/ampm-site.svg?style=flat-square
+[contributors-url]: https://github.com/ampm-jbnu/ampm-site/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ampm-jbnu/ampm-site.svg?style=flat-square
+[forks-url]: https://github.com/ampm-jbnu/ampm-site/network/members
+[stars-shield]: https://img.shields.io/github/stars/ampm-jbnu/ampm-site.svg?style=flat-square
+[stars-url]: https://github.com/ampm-jbnu/ampm-site/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ampm-jbnu/ampm-site.svg?style=flat-square
+[issues-url]: https://github.com/ampm-jbnu/ampm-site/issues
+[license-shield]: https://img.shields.io/github/license/ampm-jbnu/ampm-site.svg?style=flat-square
+[license-url]: https://github.com/ampm-jbnu/ampm-site/blob/master/LICENSE.txt
