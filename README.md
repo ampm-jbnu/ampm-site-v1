@@ -77,5 +77,5 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [stars-url]: https://github.com/ampm-jbnu/ampm-site/stargazers
 [issues-shield]: https://img.shields.io/github/issues/ampm-jbnu/ampm-site.svg?style=flat-square
 [issues-url]: https://github.com/ampm-jbnu/ampm-site/issues
-[license-shield]: https://img.shields.io/github/license/ampm-jbnu/ampm-site.svg?style=flat-square
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
 [license-url]: https://github.com/ampm-jbnu/ampm-site/blob/master/LICENSE.md
