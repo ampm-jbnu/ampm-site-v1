@@ -6,12 +6,8 @@ import Link from "next/link";
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import Tooltip from "@material-ui/core/Tooltip";
 
-// @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
-import DeleteIcon from "@material-ui/icons/Delete";
-import IconButton from "@material-ui/core/IconButton";
+import { animateScroll as scroll } from "react-scroll"
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -23,104 +19,65 @@ const useStyles = makeStyles(styles);
 
 export default function HeaderLinks(props) {
   const classes = useStyles();
-
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          navDropdown
+          buttonText="Notice"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          dropdownList={[
+            <Link href="/">
+              <a className={classes.dropdownLink}>Info</a>
+            </Link>,
+            <Link href="/">
+              <a className={classes.dropdownLink}>Contests</a>
+            </Link>,
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <Button
-          href="#about"
+          href="/"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >
-        About
+          Activities
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="#activity"
+          href="/"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >
-        Activity
+          Projects
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="#project"
+          href="/"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >
-        Projects
+          Press
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="#contact"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
+          onClick={scroll.scrollToBottom}
         >
-        Contact
+          Contact
         </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        {/*<Tooltip title="Delete">
-          <IconButton aria-label="Delete">
-            <DeleteIcon />
-          </IconButton>
-        </Tooltip>*/}
-        <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
-          placement={"top"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            href="https://twitter.com/CreativeTim?ref=creativetim"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-twitter"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={"top"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={"top"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
-          </Button>
-        </Tooltip>
       </ListItem>
     </List>
   );

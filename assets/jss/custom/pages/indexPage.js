@@ -1,7 +1,17 @@
 import { container } from "assets/jss/nextjs-material-kit.js";
 
 const indexStyle = {
-  container,
+  container: {
+    ...container,
+  },
+  parallax: {
+    backgroundColor: "rgba(0, 0, 0, 0.4)",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "100%",
+    width: "100%"
+  },
   brand: {
     color: "#FFFFFF",
     textAlign: "left"

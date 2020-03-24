@@ -30,6 +30,7 @@
     "react": "^16.13.0",
     "react-datetime": "^2.16.3",
     "react-dom": "^16.13.0",
+    "react-scroll": "^1.7.16",
     "react-slick": "^0.25.2",
     "react-swipeable-views": "^0.13.9",
     "styled-components": "^5.0.1",
