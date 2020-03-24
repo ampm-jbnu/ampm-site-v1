@@ -9,9 +9,10 @@ import { List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
+import LocationOn from "@material-ui/icons/LocationOn";
+import Mail from "@material-ui/icons/Mail";
 
-import styles from "assets/jss/nextjs-material-kit/components/footerStyle.js";
+import styles from "assets/jss/custom/components/footerStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -32,54 +33,15 @@ export default function Footer(props) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Creative Tim
-              </a>
+              <span className={classes.block}><LocationOn fontSize={"inherit"}/>{"  "}전북 전주시 덕진구 백제대로 567, 전북대학교 공과대학 5호관 315</span>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
+              <span className={classes.block}><Mail fontSize={"inherit"}/>{"  "}ampm.jbnu.315@gmail.com</span>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=njsmk-footer"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
+          &copy; {1900 + new Date().getYear()}. AM:PM. All rights reserved.
         </div>
       </div>
     </footer>

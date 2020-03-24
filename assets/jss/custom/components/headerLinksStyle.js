@@ -36,19 +36,26 @@ const headerLinksStyle = theme => ({
   listItemText: {
     padding: "0 !important"
   },
+  link: {
+    color: "inherit",
+    "&:hover,&:focus": {
+      color: "inherit",
+      // background: "rgba(200, 200, 200, 0.2)"
+    }
+  },
   navLink: {
     color: "inherit",
     position: "relative",
     padding: "0.9375rem",
     fontWeight: "400",
-    fontSize: "15px",
+    fontSize: "13px",
     textTransform: "uppercase",
     borderRadius: "3px",
     lineHeight: "20px",
     textDecoration: "none",
     margin: "0px",
     display: "inline-flex",
-    "&:hover,&:focus": {
+    "&:hover": {
       color: "inherit",
       background: "rgba(200, 200, 200, 0.2)"
     },

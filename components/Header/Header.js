@@ -54,7 +54,7 @@ export default function Header(props) {
         .classList.remove(classes[changeColorOnScroll.color]);
     }
   };
-  const { color, rightLinks, leftLinks, brand, fixed, absolute } = props;
+  const { color, rightLinks, leftLinks, brand, fixed, absolute, onBrandClick } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
@@ -63,7 +63,7 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/" as="/">
-      <Button className={classes.title}>{brand}</Button>
+      <Button className={classes.title} onClick={onBrandClick}>{brand}</Button>
     </Link>
   );
   return (
@@ -133,6 +133,7 @@ Header.propTypes = {
   brand: PropTypes.string,
   fixed: PropTypes.bool,
   absolute: PropTypes.bool,
+  onBrandClick: PropTypes.func,
   // this will cause the sidebar to change the color from
   // props.color (see above) to changeColorOnScroll.color
   // when the window.pageYOffset is heigher or equal to
