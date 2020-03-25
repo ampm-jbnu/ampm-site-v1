@@ -22,7 +22,7 @@ const footerStyle = {
     float: "right!important"
   },
   footer: {
-    backgroundColor: "rgba(0, 0, 0, 0.9)",
+    backgroundColor: "#f5f5f7",
     padding: "0.9375rem 0",
     textAlign: "center",
     display: "flex",
