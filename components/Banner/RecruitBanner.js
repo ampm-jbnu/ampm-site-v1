@@ -27,11 +27,7 @@ export default function RecruitBanner(props) {
           <Card className={classNames(classes.banner)}>
             <CardHeader className={classes.bannerHeader}>
               <h4 className={classes.bannerTitle}>
-                AM:PM{" "}
-                <span style={{ color: "rgba(255, 158, 27, 1)" }}>
-                  3기 신입 부원
-                </span>{" "}
-                모집
+                AM:PM 3기 신입 부원 모집
               </h4>
             </CardHeader>
             <CardBody className={classes.bannerBody}>

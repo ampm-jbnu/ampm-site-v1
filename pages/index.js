@@ -33,18 +33,13 @@ export default function Index(props) {
         onBrandClick={scroll.scrollToTop}
         rightLinks={<HeaderLinks />}
         fixed
-        color="transparent"
+        color="dark"
         changeColorOnScroll={{
           height: 400,
           color: "white"
         }}
         {...rest}
       />
-      {/* <Parallax image={require("assets/img/ampm_header01.jpg")}>
-        <div className={classes.parallax}>
-          <RecruitBanner className={classes.container} />
-        </div>
-      </Parallax> */}
       <SectionIntro />
       <div className={classNames(classes.main)}>
         <div className={classes.container}>
@@ -52,10 +47,9 @@ export default function Index(props) {
             #about
           </div>
           <div id="history">#history</div>
-          <div id="people">#회장단</div>
           <SectionPeople />
         </div>
-        <Footer whiteFont />
+        <Footer darkFont />
       </div>
     </div>
   );
