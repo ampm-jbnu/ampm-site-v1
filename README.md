@@ -1,4 +1,5 @@
 # AM:PM Site
+
 > 전북대학교 소프트웨어공학과 학술동아리 AM:PM 웹 사이트
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -48,14 +49,14 @@ yarn dev
 
 ## Release History
 
-* 0.0.1
-    * Add template and first release
+- 0.0.1
+  - Add template and first release
 
 ## Meta
 
 Moon Bong-oh – moonbonoz@gmail.com
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See `LICENSE` for more information.
 
 [https://github.com/ampm-jbnu/ampm-site](https://github.com/ampm-jbnu/ampm-site)
 
@@ -69,10 +70,12 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributors
 
-* Moon Bong-oh [bonomoon](https://github.com/bonomoon)
+- Moon Bong-oh [bonomoon](https://github.com/bonomoon)
+- Im WonYong [WonYong](https://github.com/ImWonYong)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/ampm-jbnu/ampm-site.svg?style=flat-square
 [contributors-url]: https://github.com/ampm-jbnu/ampm-site/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ampm-jbnu/ampm-site.svg?style=flat-square
