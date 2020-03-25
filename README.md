@@ -14,9 +14,9 @@
 
 [View Site](http://ampm.jbnu.ac.kr)
 
-## Start(아직 이용 불가)
+## Start
 
-OS X & Linux
+Terminal
 
 ```sh
 yarn
