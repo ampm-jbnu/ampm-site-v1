@@ -67,6 +67,10 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
+## Contributors
+
+* Moon Bong-oh [bonomoon](https://github.com/bonomoon)
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/ampm-jbnu/ampm-site.svg?style=flat-square
