@@ -20,7 +20,14 @@ Terminal
 
 ```sh
 yarn
-yarn build && PORT=[port_number] yarn start
+yarn build
+
+yarn start 
+
+or 
+
+yarn global add pm2
+pm2 start ecosystem.config.js
 ```
 
 OS X & Linux Docker(아직 이용 불가)
@@ -30,12 +37,20 @@ sudo docker-compose build
 sudo docker-compose up -d
 ```
 
-## Monitoring(아직 이용 불가)
+## Monitoring
 
-OS X & Linux
+Terminal
 
 ```sh
-sudo docker ps
+pm2 monit
+```
+
+## Logging
+
+Terminal
+
+```sh
+pm2 logs
 ```
 
 ## Development setup
@@ -71,8 +86,24 @@ Distributed under the MIT license. See `LICENSE` for more information.
 
 ## Contributors
 
+### Developers
+
 - Moon Bong-oh [bonomoon](https://github.com/bonomoon)
 - Im WonYong [WonYong](https://github.com/ImWonYong)
+- Wang Daesung [Mamosoo](https://github.com/Mamosoo)
+
+### Designers
+
+- Ha Changjin
+- Yoo Hyunjin
+- Lee Soo-ah
+
+### Planners
+
+- Moon Seokarm [mon823](https://github.com/mon823)
+- Kim Bokyung
+- Jeong Yoonyoung
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

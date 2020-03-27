@@ -1,14 +1,12 @@
 version: '3.7'
 
 services:
-    frontend:
-        container_name: frontend
-    ports:
-      - '3000:3000'
-    build:
-      context: frontend
-      dockerfile: Dockerfile
-    volumes:
-      - ./frontend:/usr/src/app
-      - /usr/src/app/node_modules
-      - /usr/src/app/.next
+    nextjs:
+        build: ./
+    nginx:
+        build: ./nginx
+        ports:
+          - 80:80
+        links:
+          - nextjs
+        restart: always
