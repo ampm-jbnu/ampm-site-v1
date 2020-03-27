@@ -4,9 +4,9 @@
   "description": "전북대학교 소프트웨어공학과 학술동아리 AM:PM 홈페이지",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p $PORT",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "install:clean": "sudo rm -rf node_modules/ && sudo rm -rf yarn.json && sudo rm -rf .next/ && yarn && yarn dev"
   },
   "repository": "https://github.com/ampm-jbnu/ampm-site.git",

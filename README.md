@@ -20,7 +20,7 @@ Terminal
 
 ```sh
 yarn
-yarn build && yarn start
+yarn build && PORT=[port_number] yarn start
 ```
 
 OS X & Linux Docker(아직 이용 불가)
@@ -40,7 +40,8 @@ sudo docker ps
 
 ## Development setup
 
-프로젝트 폴더 안에서 아래의 명령어를 실행시켜주세요. yarn dev를 실행시키면 next.js의 개발자 모드가 실행되어 auto-hot-reloading 등의 기능을 이용할 수 있습니다.
+프로젝트 폴더 안에서 아래의 명령어를 실행시켜주세요. yarn dev를 실행시키면 next.js의 개발자 모드가 실행되어 auto-hot-reloading 등의 기능을 이용할 수 있습니다.  
+(기본 Dev PORT는 3000입니다.)
 
 ```sh
 yarn

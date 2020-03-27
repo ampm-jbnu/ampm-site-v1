@@ -30,7 +30,7 @@ export default function SectionPeople() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our managers</h2>
+      <h2>Here is our managers</h2>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
