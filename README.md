@@ -30,13 +30,6 @@ yarn global add pm2
 pm2 start ecosystem.config.js
 ```
 
-OS X & Linux Docker(아직 이용 불가)
-
-```sh
-sudo docker-compose build
-sudo docker-compose up -d
-```
-
 ## Monitoring
 
 Terminal
