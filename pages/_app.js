@@ -78,9 +78,15 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>AM:PM</title>
-        </Head>
-        <Component {...pageProps} />
+	    <title>AM:PM</title>
+	    <meta key="description" name="description" content="전북대학교 소프트웨어공학과의 학술동아리 AM:PM입니다. 'To be Algorithm Master and Programming Master'" />
+
+	    <meta key="og:type" property="og:type" content="website"/>
+	    <meta key="og:title" property="og:title" content="AM:PM" />
+	    <meta key="og:description" property="og:description" content="To be Algorithm Master and Programming Master" />
+	    <meta key="og:image" property="og:image" content="https://raw.githubusercontent.com/ampm-jbnu/ampm-site/master/overview.png" />
+	</Head>
+	<Component {...pageProps} />
       </React.Fragment>
     );
   }
