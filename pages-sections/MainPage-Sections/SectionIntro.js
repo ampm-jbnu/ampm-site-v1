@@ -25,15 +25,12 @@ export default function SectionIntro(props) {
         backgroundPosition: "top center"
       }}
     >
-      {/* <Parallax image={require("assets/img/ampm_header01.jpg")}>
-        <div className={classes.parallax}>
-          <RecruitBanner className={classes.container} />
-        </div>
-      </Parallax> */}
       <div className={classes.container}>
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
-            <span className={classes.desc}>모집기간: 2020. 03. 27 ~ 2020. 04. 05</span>
+            <span className={classes.desc}>
+              모집기간: 2020. 03. 27 ~ 2020. 04. 05
+            </span>
             <h3 className={classes.title}>
               <strong>AM:PM </strong>3기 모집
             </h3>
