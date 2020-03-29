@@ -31,10 +31,10 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link href="/">
+            <Link href="/notice/info">
               <a className={classes.dropdownLink}>Info</a>
             </Link>,
-            <Link href="/">
+            <Link href="/notice/contests">
               <a className={classes.dropdownLink}>Contests</a>
             </Link>,
           ]}
@@ -42,7 +42,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/"
+          href="/activities"
           color="transparent"
           target="_self"
           className={classes.navLink}
@@ -52,7 +52,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/"
+          href="/projects"
           color="transparent"
           target="_self"
           className={classes.navLink}
@@ -62,7 +62,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/"
+          href="/press"
           color="transparent"
           target="_self"
           className={classes.navLink}
