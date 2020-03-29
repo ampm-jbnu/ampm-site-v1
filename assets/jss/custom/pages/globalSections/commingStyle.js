@@ -42,9 +42,19 @@ const commingStyle = {
     }
   },
   title: {
+    fontSize: "1.858rem",
     minHeight: "32px",
     textDecoration: "none",
     marginBottom: "30px"
+  },
+  description: {
+    marginBottom: "30px"
+  },
+  textButton: {
+    fontSize: "0.9rem",
+    fontWeight: "600",
+    padding: "0",
+    marginBottom: "20px"
   },
   img: {
     width: "100%"
