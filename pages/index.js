@@ -13,8 +13,11 @@ import Parallax from "components/Parallax/Parallax.js";
 import Footer from "components/Footer/Footer.js";
 import SectionIntro from "pages-sections/MainPage-Sections/SectionIntro";
 import SectionPeople from "pages-sections/MainPage-Sections/SectionPeople";
+import SectionHistory from "pages-sections/MainPage-Sections/SectionHistory";
 
 import styles from "assets/jss/custom/pages/indexPage";
+import SectionActivities from "../pages-sections/MainPage-Sections/SectionActivities";
+import SectionAbout from "../pages-sections/MainPage-Sections/SectionAbout";
 
 const useStyles = makeStyles(styles);
 
@@ -36,19 +39,16 @@ export default function Index(props) {
         color="dark"
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "none"
         }}
         {...rest}
       />
       <SectionIntro />
       <div className={classNames(classes.main)}>
-        <div className={classes.container}>
-          <div id="about">
-            #about
-          </div>
-          <div id="history">#history</div>
+          <SectionAbout />
+          <SectionActivities />
+          <SectionHistory />
           <SectionPeople />
-        </div>
         <Footer darkFont />
       </div>
     </div>
