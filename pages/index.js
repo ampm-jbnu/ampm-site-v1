@@ -2,14 +2,12 @@ import React, { useEffect } from "react";
 import Router from "next/router";
 
 import classNames from "classnames";
-import Link from "next/link"
 import { makeStyles } from "@material-ui/core/styles";
 
 import { animateScroll as scroll } from "react-scroll"
 
 import Header from "components/Header/Header.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
-import Parallax from "components/Parallax/Parallax.js";
 import Footer from "components/Footer/Footer.js";
 import SectionIntro from "pages-sections/MainPage-Sections/SectionIntro";
 import SectionPeople from "pages-sections/MainPage-Sections/SectionPeople";

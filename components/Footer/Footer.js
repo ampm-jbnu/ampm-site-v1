@@ -18,7 +18,7 @@ const useStyles = makeStyles(styles);
 
 export default function Footer(props) {
   const classes = useStyles();
-  const { whiteFont } = props;
+  const { whiteFont, containerStyle } = props;
   const footerClasses = classNames({
     [classes.footer]: true,
     [classes.footerWhiteFont]: whiteFont
@@ -28,7 +28,7 @@ export default function Footer(props) {
     [classes.footerWhiteFont]: whiteFont
   });
   return (
-    <footer className={footerClasses}>
+    <footer className={footerClasses} style={containerStyle}>
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
@@ -49,5 +49,6 @@ export default function Footer(props) {
 }
 
 Footer.propTypes = {
-  whiteFont: PropTypes.bool
+  whiteFont: PropTypes.bool,
+  containerStyle: PropTypes.object
 };
