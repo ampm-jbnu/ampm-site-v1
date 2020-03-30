@@ -16,6 +16,7 @@ import SectionHistory from "pages-sections/MainPage-Sections/SectionHistory";
 import styles from "assets/jss/custom/pages/indexPage";
 import SectionActivities from "../pages-sections/MainPage-Sections/SectionActivities";
 import SectionAbout from "../pages-sections/MainPage-Sections/SectionAbout";
+import SectionNow from "../pages-sections/MainPage-Sections/SectionNow";
 
 const useStyles = makeStyles(styles);
 
@@ -46,6 +47,7 @@ export default function Index(props) {
           <SectionAbout />
           <SectionActivities />
           <SectionHistory />
+          <SectionNow />
           <SectionPeople />
         <Footer darkFont />
       </div>

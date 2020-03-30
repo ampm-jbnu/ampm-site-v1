@@ -16,11 +16,9 @@ const aboutStyle = {
   },
   title: {
     margin: "0",
+    fontWeight: "500",
     minHeight: "32px",
     textDecoration: "none",
-    "&:first-letter": {
-      color: "#06c"
-    }
   },
   subTitle: {
     fontWeight: "500",

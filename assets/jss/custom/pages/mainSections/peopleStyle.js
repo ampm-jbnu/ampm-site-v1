@@ -1,13 +1,16 @@
-import { title } from "assets/jss/nextjs-material-kit.js";
+import { container, title } from "assets/jss/nextjs-material-kit.js";
 import imagesStyle from "assets/jss/nextjs-material-kit/imagesStyles.js";
 
 const peopleStyle = {
   section: {
-    padding: "70px 0",
+    padding: "150px 0",
     textAlign: "center"
   },
+  container: {
+    ...container,
+  },
   title: {
-    ...title,
+    fontWeight: "500",
     marginBottom: "1rem",
     marginTop: "30px",
     minHeight: "32px",
