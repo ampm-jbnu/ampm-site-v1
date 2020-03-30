@@ -88,14 +88,14 @@ Distributed under the MIT license. See `LICENSE` for more information.
 ### Designers
 
 - Ha Changjin
-- Yoo Hyunjin
-- Lee Soo-ah
+- Yoo Hyunjin [1hyunjin](https://github.com/1hyunjin)
+- Lee Soo-ah [LeeSuA](https://github.com/LeeSuA)
 
 ### Planners
 
 - Moon Seokarm [mon823](https://github.com/mon823)
 - Kim Bokyung
-- Jeong Yoonyoung
+- Jeong Yunyoung [zzeongyx2](https://github.com/zzeongyx2)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
