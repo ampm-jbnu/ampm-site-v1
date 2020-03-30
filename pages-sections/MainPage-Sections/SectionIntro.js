@@ -1,6 +1,13 @@
 import React from "react";
 
 import { makeStyles } from "@material-ui/core/styles";
+import Dialog from "@material-ui/core/Dialog";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import DialogContent from "@material-ui/core/DialogContent";
+import Slide from "@material-ui/core/Slide";
+
+import IconButton from "@material-ui/core/IconButton"
+import Close from "@material-ui/icons/Close";
 
 import { Link, animateScroll as scroll } from "react-scroll";
 import GridContainer from "components/Grid/GridContainer.js";
@@ -10,11 +17,19 @@ import Button from "components/CustomButtons/Button.js";
 import styles from "assets/jss/custom/pages/mainSections/introStyle";
 
 import image from "assets/img/ampm_header01.jpg";
+import poster from "assets/img/main/poster.jpg";
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="down" ref={ref} {...props} />;
+});
+
+Transition.displayName = "Transition";
 
 const useStyles = makeStyles(styles);
 
 export default function SectionIntro(props) {
   const classes = useStyles();
+  const [imgModal, setImgModal] = React.useState(false);
 
   return (
     <div
@@ -37,10 +52,48 @@ export default function SectionIntro(props) {
             <Button
               className={classes.textButton}
               style={{ color: "#2997ff" }}
+              onClick={() => setImgModal(true)}
               simple
             >
               <u>지원자격 및 문의&nbsp;&nbsp;&nbsp;❯</u>
             </Button>
+            {/* 이미지 모달 */}
+            <Dialog
+              classes={{
+                root: classes.center,
+                paper: classes.modal
+              }}
+              open={imgModal}
+              TransitionComponent={Transition}
+              keepMounted
+              onClose={() => setImgModal(false)}
+              aria-labelledby="classic-modal-slide-title"
+              aria-describedby="classic-modal-slide-description"
+            >
+              <DialogTitle
+                id="classic-modal-slide-title"
+                disableTypography
+                className={classes.modalHeader}
+              >
+                <IconButton
+                  className={classes.modalCloseButton}
+                  key="close"
+                  aria-label="Close"
+                  color="inherit"
+                  onClick={() => setImgModal(false)}
+                >
+                  <Close className={classes.modalClose} />
+                </IconButton>
+                {/* <h4 className={classes.modalTitle}>홍보 포스터</h4> */}
+              </DialogTitle>
+              <DialogContent
+                id="classic-modal-slide-description"
+                className={classes.modalBody}
+                style={{padding: "0"}}
+              >
+                <img className={classes.modalImg + " " + classes.imgRounded} src={poster} />
+              </DialogContent>
+            </Dialog>
             <h5 className={classes.subtitle}>
               To be Algorithm Master & Programming Master
             </h5>
