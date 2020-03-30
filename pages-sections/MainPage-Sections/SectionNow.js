@@ -28,7 +28,7 @@ export default function SectionNow() {
             }}
           >
             <div className={classes.overlay}>
-              <GridContainer>
+              <GridContainer style={{width: "100%"}}>
                 <GridItem
                   xs={12}
                   sm={12}
