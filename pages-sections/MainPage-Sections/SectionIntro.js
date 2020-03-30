@@ -84,7 +84,6 @@ export default function SectionIntro(props) {
                 >
                   <Close className={classes.modalClose} />
                 </IconButton>
-                {/* <h4 className={classes.modalTitle}>홍보 포스터</h4> */}
               </DialogTitle>
               <DialogContent
                 id="classic-modal-slide-description"
