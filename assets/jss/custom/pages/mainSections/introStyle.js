@@ -1,4 +1,6 @@
 import { container } from "assets/jss/nextjs-material-kit.js";
+import modalStyle from "assets/jss/nextjs-material-kit/modalStyle.js";
+import imagesStyle from "assets/jss/nextjs-material-kit/imagesStyles.js";
 
 const introStyle = {
   container: {
@@ -82,6 +84,12 @@ const introStyle = {
     fontWeight: "600",
     padding: "0"
   },
+  ...modalStyle,
+  ...imagesStyle,
+  modalImg: {
+    width: "100%",
+    height: "100%",
+  }
 };
 
 export default introStyle;
