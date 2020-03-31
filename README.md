@@ -14,6 +14,10 @@
 
 [View Site](http://ampm.jbnu.ac.kr)
 
+## Tech Stack
+
+next.js, react
+
 ## Start
 
 Terminal
@@ -55,11 +59,6 @@ pm2 logs
 yarn
 yarn dev
 ```
-
-## Release History
-
-- 0.0.1
-  - Add template and first release
 
 ## Meta
 
