@@ -9,6 +9,7 @@ import {
   roseColor
 } from "assets/jss/nextjs-material-kit.js";
 
+
 const paginationStyle = {
   pagination: {
     display: "inline-block",
