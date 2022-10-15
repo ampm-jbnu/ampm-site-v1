@@ -47,6 +47,9 @@ const peopleStyle = {
   },
   margin5: {
     margin: "5px"
+  },
+  quest: {
+    display: 'none',
   }
 };
 
