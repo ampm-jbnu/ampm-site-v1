@@ -7,7 +7,7 @@ import {
   roseColor,
   grayColor,
   title
-} from "/styles/jss/nextjs-material-kit.js";
+} from "assets/jss/nextjs-material-kit.js";
 
 const infoStyle = {
   infoArea: {

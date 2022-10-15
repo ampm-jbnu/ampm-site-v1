@@ -11,7 +11,7 @@ import {
   transition,
   boxShadow,
   drawerWidth
-} from "/styles/jss/nextjs-material-kit.js";
+} from "assets/jss/nextjs-material-kit.js";
 
 const headerStyle = {
   appBar: {

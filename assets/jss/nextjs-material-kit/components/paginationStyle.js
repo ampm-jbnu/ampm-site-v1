@@ -7,7 +7,7 @@ import {
   warningColor,
   dangerColor,
   roseColor
-} from "/styles/jss/nextjs-material-kit.js";
+} from "assets/jss/nextjs-material-kit.js";
 
 const paginationStyle = {
   pagination: {
