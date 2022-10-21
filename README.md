@@ -82,7 +82,7 @@ Distributed under the MIT license. See `LICENSE` for more information.
 ## Contributors
 
 - Im WonYong [WonYong](https://github.com/ImWonYong)
-- Wang Daesung [Mamosoo](https://github.com/Mamosoo)
+- Wang Daesung [DaeSung Wang](https://github.com/daesungwang)
 - Ha Changjin [h-ch22](https://github.com/h-ch22)
 - Yoo Hyunjin [1hyunjin](https://github.com/1hyunjin)
 - Lee Soo-ah [LeeSuA](https://github.com/LeeSuA)
