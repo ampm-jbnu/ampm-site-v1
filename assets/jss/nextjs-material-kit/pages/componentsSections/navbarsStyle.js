@@ -1,7 +1,11 @@
-import { container, title, grayColor } from "assets/jss/nextjs-material-kit.js";
+import {
+  container,
+  title,
+  grayColor
+} from "assets/jss/nextjs-material-kit.js";
 import headerLinksStyle from "assets/jss/nextjs-material-kit/components/headerLinksStyle.js";
 
-const navbarsStyle = theme => ({
+const navbarsStyle = (theme) => ({
   section: {
     padding: "70px 0",
     paddingTop: "0"

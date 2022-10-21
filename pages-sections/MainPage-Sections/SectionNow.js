@@ -7,8 +7,6 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
-import nowImg from "assets/img/main/now.jpg";
-
 import styles from "assets/jss/custom/pages/mainSections/nowStyle";
 
 const useStyles = makeStyles(styles);
@@ -22,7 +20,7 @@ export default function SectionNow() {
           <div
             className={classes.content}
             style={{
-              backgroundImage: "url(" + nowImg + ")",
+              backgroundImage: "url('/img/main/now.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center"
             }}

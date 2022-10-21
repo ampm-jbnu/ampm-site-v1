@@ -16,9 +16,6 @@ import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/custom/pages/mainSections/introStyle";
 
-import image from "assets/img/ampm_header01.jpg";
-import poster from "assets/img/main/poster.jpg";
-
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="down" ref={ref} {...props} />;
 });
@@ -35,7 +32,7 @@ export default function SectionIntro(props) {
     <div
       className={classes.pageHeader}
       style={{
-        backgroundImage: "url(" + image + ")",
+        backgroundImage: "url('/img/ampm_header01.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "top center"
       }}
@@ -90,7 +87,7 @@ export default function SectionIntro(props) {
                 className={classes.modalBody}
                 style={{padding: "0"}}
               >
-                <img className={classes.modalImg + " " + classes.imgRounded} src={poster} />
+                <img className={classes.modalImg + " " + classes.imgRounded} src="/img/main/poster.jpg" />
               </DialogContent>
             </Dialog>
             <h5 className={classes.subtitle}>

@@ -1,6 +1,4 @@
 import React from "react";
-// nodejs library that concatenates classes
-import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -9,8 +7,6 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import styles from "assets/jss/custom/pages/mainSections/historyStyle.js";
 import Timeline from "components/Timeline/Timeline";
-
-import historyImg from "assets/img/main/history.jpg";
 
 import historyData from "assets/data/history";
 
@@ -24,7 +20,7 @@ export default function SectionHistory() {
       <div className={classes.container}>
         <h2 className={classes.title}>Our History</h2>
         <div className={classes.space50} />
-        <img className={classes.img} src={historyImg} />
+        <img className={classes.img} src="/img/main/history.jpg" />
         {/* <Timeline data={historyData} /> */}
         <div className={classes.space50} />
       </div>

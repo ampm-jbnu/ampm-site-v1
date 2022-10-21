@@ -7,11 +7,6 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
-import studyImg from "assets/img/main/study.jpg";
-import projectImg from "assets/img/main/project.jpg";
-import competitionImg from "assets/img/main/competition.jpg";
-import supportImg from "assets/img/main/support.jpg";
-
 import styles from "assets/jss/custom/pages/mainSections/activitiesStyle";
 
 const useStyles = makeStyles(styles);
@@ -30,7 +25,7 @@ export default function SectionActivities() {
             <div
               className={classes.content}
               style={{
-                backgroundImage: "url(" + studyImg + ")",
+                backgroundImage: "url('/img/main/study.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "top center"
               }}
@@ -43,7 +38,7 @@ export default function SectionActivities() {
                 <div
                   className={classes.blur}
                   style={{
-                    backgroundImage: "url(" + studyImg + ")",
+					backgroundImage: "url('/img/main/study.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "top center"
                   }}
@@ -67,7 +62,7 @@ export default function SectionActivities() {
             <div
               className={classes.content}
               style={{
-                backgroundImage: "url(" + projectImg + ")",
+                backgroundImage: "url('/img/main/project.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "top center"
               }}
@@ -79,7 +74,7 @@ export default function SectionActivities() {
                 <div
                   className={classes.blur}
                   style={{
-                    backgroundImage: "url(" + projectImg + ")",
+                	backgroundImage: "url('/img/main/project.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "top center"
                   }}
@@ -103,7 +98,7 @@ export default function SectionActivities() {
             <div
               className={classes.content}
               style={{
-                backgroundImage: "url(" + competitionImg + ")",
+				backgroundImage: "url('/img/main/competition.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "top center"
               }}
@@ -116,7 +111,7 @@ export default function SectionActivities() {
                 <div
                   className={classes.blur}
                   style={{
-                    backgroundImage: "url(" + competitionImg + ")",
+					backgroundImage: "url('/img/main/competition.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "top center"
                   }}
@@ -140,7 +135,7 @@ export default function SectionActivities() {
             <div
               className={classes.content}
               style={{
-                backgroundImage: "url(" + supportImg + ")",
+				backgroundImage: "url('/img/main/support.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "top center"
               }}
@@ -152,7 +147,7 @@ export default function SectionActivities() {
                 <div
                   className={classes.blur}
                   style={{
-                    backgroundImage: "url(" + supportImg + ")",
+					backgroundImage: "url('/img/main/support.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "top center"
                   }}

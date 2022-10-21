@@ -14,7 +14,7 @@ import {
   roseBoxShadow
 } from "assets/jss/nextjs-material-kit.js";
 
-const customDropdownStyle = theme => ({
+const customDropdownStyle = (theme) => ({
   popperClose: {
     pointerEvents: "none"
   },

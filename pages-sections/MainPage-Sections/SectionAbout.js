@@ -6,8 +6,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
-import aboutImg from "assets/img/main/about.jpg";
-
 import styles from "assets/jss/custom/pages/mainSections/aboutStyle";
 
 const useStyles = makeStyles(styles);
@@ -43,7 +41,7 @@ export default function SectionAbout() {
             className={classes.imgContentWrapper}
           >
             <img
-              src={aboutImg}
+              src="/img/main/about.jpg"
               alt="about"
               className={classes.imgRounded + " " + classes.img}
             />

@@ -23,7 +23,7 @@ import Router from "next/router";
 
 import PageChange from "components/PageChange/PageChange.js";
 
-import "assets/scss/nextjs-material-kit.scss?v=1.0.0";
+import "assets/scss/nextjs-material-kit.scss?v=1.2.0";
 
 Router.events.on("routeChangeStart", url => {
   console.log(`Loading: ${url}`);
@@ -96,6 +96,10 @@ export default class MyApp extends App {
             key="og:image"
             property="og:image"
             content="https://raw.githubusercontent.com/ampm-jbnu/ampm-site/master/overview.png"
+          />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
         </Head>
         <Component {...pageProps} />
