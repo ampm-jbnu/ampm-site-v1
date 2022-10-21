@@ -24,10 +24,6 @@ export default function Index(props) {
   const classes = useStyles();
   const { ...rest } = props;
 
-  useEffect(() => {
-    Router.push("/index");
-  }, []);
-
   return (
     <div>
       <Header
