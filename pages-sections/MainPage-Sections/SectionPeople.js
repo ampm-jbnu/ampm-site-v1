@@ -16,9 +16,6 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/custom/pages/mainSections/peopleStyle.js";
 
-import manager1 from "assets/img/main/hyunwoo.jpg";
-import manager2 from "assets/img/main/seokarm.jpg";
-
 const useStyles = makeStyles(styles);
 
 export default function SectionPeople() {
@@ -38,7 +35,7 @@ export default function SectionPeople() {
             <GridItem xs={12} sm={12} md={6}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={manager1} alt="..." className={imageClasses} />
+                  <img src="/img/main/hyunwoo.jpg" alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   김현우
@@ -70,7 +67,7 @@ export default function SectionPeople() {
             <GridItem xs={12} sm={12} md={6}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={manager2} alt="..." className={imageClasses} />
+                  <img src="/img/main/seokarm.jpg" alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   문석암

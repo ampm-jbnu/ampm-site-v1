@@ -8,9 +8,6 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import Footer from "components/Footer/Footer.js";
 
-import background from "assets/img/global/comming-bg.jpg";
-import commingImg from "assets/img/global/comming.jpg";
-
 import styles from "assets/jss/custom/pages/globalSections/commingStyle";
 
 const useStyles = makeStyles(styles);
@@ -21,7 +18,7 @@ export default function SectionComming() {
     <div
       className={classes.pageHeader}
       style={{
-        backgroundImage: "url(" + background + ")",
+        backgroundImage: "url('/img/global/comming-bg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "top center"
       }}
@@ -66,7 +63,7 @@ export default function SectionComming() {
           </GridItem>
           <GridItem xs={12} sm={12} md={3} lg={3}>
             <img
-              src={commingImg}
+              src='/img/global/comming.jpg'
               alt="comming"
               className={classes.imgRounded + " " + classes.img}
             />
